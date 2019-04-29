@@ -1,0 +1,299 @@
+body{
+	margin: auto 0;
+	font-family:"Oswald"
+}
+
+.navbar{
+	background-color:#339AF0;
+	margin:0px;
+	padding: 0px;
+	border-bottom: 2px #D6DDDB solid;
+	opacity: 1;
+}
+.mainnav{
+	display: flex;
+	font-size: 1.25em;
+	margin: 0;
+}
+
+
+.mainnav li{
+	list-style: none;
+	
+}
+
+
+.mainnav  li a{
+	text-decoration: none;
+	color: 	black;
+	
+}
+
+
+.navright{
+	margin-left: auto ;
+	padding: 10px;
+}
+
+
+.contact{
+	margin-right: 50px;
+
+
+}
+
+.logonav i{
+	margin-right: auto ;
+	padding: 10px 20px 10px 20px;
+	font-size: 24px;
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+    width:100%;
+}
+
+/*Jumbotron*/
+
+.jumbotron{
+	background-image:url(http://wpstreak.com/wp-content/uploads/2016/12/how-to-use-the-wordpress-featured-image-as-background-image.jpg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: white;
+	height:60vh;
+	margin: 0px;
+	padding:0px;
+	margin-top: 0px;
+	opacity: 0.1;
+	border-bottom: 1px #D6DDDB solid;
+	transition: all 0.3s linear;
+}
+
+.jumbotron:hover{
+	-webkit-box-shadow:rgba(0,0,0,0.8) 0px 20px 25px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 20px 25px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 20px 25px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 20px 25px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+
+.slogandiv{
+	margin: auto 0; 
+}
+
+.slogan{
+	text-align: left;
+	padding-left:20%;
+	text-transform: uppercase;
+	font-family: play;
+	padding-top: 15vh;
+	color: black;
+	margin: auto 0;
+	opacity: 1;
+
+}
+
+.slogan p{
+	text-align:right;
+	padding-top: 0px;
+	padding-right: 20%;
+	text-overflow: none;
+	margin:10vh;
+}
+
+/*icons section*/
+.icons{
+	display: grid;
+	grid-gap:10px;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	justify-content: center;
+	text-align: center;
+	margin:65px 35px;
+	
+	
+}
+
+.basics{
+	transition: all 0.3s linear;
+}
+
+.basics:hover{
+	-webkit-box-shadow:rgba(0,0,0,0.2) 0px 20px 30px, inset rgba(0,0,0,0.2) 0px -10px 30px;
+    -moz-box-shadow:rgba(0,0,0,0.2) 0px 20px 30px, inset rgba(0,0,0,0.2) 0px -10px 30px;
+    -o-box-shadow:rgba(0,0,0,0.2) 0px 20px 30px, inset rgba(0,0,0,0.2) 0px -10px 30px;
+    box-shadow:rgba(0,0,0,0.2) 0px 20px 30px, inset rgba(0,0,0,0.2) 0px -10px 30px;
+}
+
+.icons i{
+	width: 100%;
+	padding:40px 0px;
+	font-size: 50px;
+	color:#339AF0;	
+}
+
+.tag{
+	font-size: 20px;
+	padding-top: opx;
+}
+.description{
+	text-align: center;
+	font-size: .9em;
+	padding:0px 25px;
+}
+
+
+/*Project Images*/
+
+
+.basics{
+	background-color:#339AF0;
+	border-top: 2px #D6DDDB solid;
+	border-bottom: 2px #D6DDDB solid;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; /*minmax(350px, 1fr));*/
+	grid-gap: 25px;
+	padding:25px;
+	justify-content:center;
+	text-align: center;
+	padding: 100px 0px;
+	margin: 40px 0px;
+}
+
+.projectimg{
+	width: 350px;
+	/*padding:25px 15px*/;
+	 transition: all 0.3s linear;
+}
+
+.projectimg:hover{
+	-webkit-box-shadow:rgba(0,0,0,0.8) 0px 20px 25px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 20px 25px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 20px 25px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 20px 25px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.basics{
+	font-family: play;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.projectlink{
+	padding-bottom: 25px;
+	text-decoration: none;
+	
+}
+
+.projecthead{
+	position: relative;
+	text-align: center;
+}
+
+.project2{
+	text-decoration: none;
+	font-family: play;
+	color:white;
+}
+
+
+/*about us*/
+
+.aboutus{
+	padding:30px 35px;
+}
+
+.about{
+	text-align: center;
+	color:#339AF0;
+}
+.abouthead{
+	font-size: 1.5rem;
+	text-align: center;
+
+}
+
+#abouthr{
+	width: 75%;
+}
+
+/*Footer*/
+
+.footer{
+	background-color:#339AF0;
+	/*height: 15vh;*/
+	/*text-align: center;*/
+	padding:15px;
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	color: white;
+
+}
+
+
+.pitchfooter{
+	text-align: left;
+	padding: 10px 15px;
+
+}
+
+.lowericons{
+	color: white;
+	font-size: 30px;
+	padding: 5px 15px 15px 20px;
+	text-align: left;
+	border-bottom: 1px white solid;
+
+}
+
+.fa-thumbs-up{
+	padding-right: 25px;
+}
+
+.fa-dove{
+	padding-right: 25px;
+}
+
+.footerlabels{
+	line-height: 1.75;
+	border-bottom: 1px white solid;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 24px;
+}
+
+.footernav{
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 1px white solid;
+	
+}
+
+.footernav a{
+	text-decoration: none;
+	color: white;
+	font-family: play;
+}
+
+/*footer form*/
+.userbutton{
+	color: white;
+	background-color: #FF7F42;
+	font-size: 15px;
+	padding: 12px 60px;
+	border-radius: 5px 5px 5px 5px;
+	border: none;
+
+
+}
+
+#signup{
+	height: 35px;
+	width: 400px;
+	margin: 15px 20px;
+}
+
+.privacy{
+	margin: 8px 20px;
+	font-size: 12px;
+}
